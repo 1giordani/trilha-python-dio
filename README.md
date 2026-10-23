@@ -2,6 +2,12 @@
 
 Repositório de estudos baseado no [material original da Digital Innovation One](https://github.com/digitalinnovationone/trilha-python-dio), com o histórico e os créditos preservados pelo fork.
 
+## Projeto de avaliação: métricas de classificação
+
+[**Acurácia, recall, especificidade, precisão e F1 — fórmulas, notebook e resultados**](projetos/metricas-avaliacao-classificacao/README.md)
+
+Cálculos explícitos a partir de uma matriz binária fictícia, com tratamento de denominadores zero, onze testes e relatórios JSON/Markdown. Não depende de bibliotecas de aprendizado de máquina.
+
 ## Projeto de imagens: cinza e binarização
 
 [**Redução de dimensionalidade em imagens — código, notebook e resultados**](projetos/reducao-dimensionalidade-imagens/README.md)

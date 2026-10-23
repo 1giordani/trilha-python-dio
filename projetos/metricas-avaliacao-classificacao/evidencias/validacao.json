@@ -1,0 +1,14 @@
+{
+  "status": "ok",
+  "cells": 13,
+  "python_cells_executed": 5,
+  "scope": "execução local das células; sem sessão no Colab",
+  "checks": [
+    "sintaxe",
+    "sincronização com script",
+    "execução integral das células",
+    "cálculos manuais",
+    "arquivos gerados",
+    "links locais do README"
+  ]
+}

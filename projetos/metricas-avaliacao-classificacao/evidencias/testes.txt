@@ -1,0 +1,16 @@
+test_classificacao_perfeita (test_metricas.MetricasTests.test_classificacao_perfeita) ... ok
+test_exemplo_calculado_manualmente (test_metricas.MetricasTests.test_exemplo_calculado_manualmente) ... ok
+test_exportacao_e_null (test_metricas.MetricasTests.test_exportacao_e_null) ... ok
+test_f1_equivale_media_harmonica (test_metricas.MetricasTests.test_f1_equivale_media_harmonica) ... ok
+test_matriz_vazia (test_metricas.MetricasTests.test_matriz_vazia) ... ok
+test_orientacao_matriz (test_metricas.MetricasTests.test_orientacao_matriz) ... ok
+test_rejeita_contagens_invalidas (test_metricas.MetricasTests.test_rejeita_contagens_invalidas) ... ok
+test_sem_negativos_reais (test_metricas.MetricasTests.test_sem_negativos_reais) ... ok
+test_sem_positivos_previstos (test_metricas.MetricasTests.test_sem_positivos_previstos) ... ok
+test_sem_positivos_reais (test_metricas.MetricasTests.test_sem_positivos_reais) ... ok
+test_todas_previsoes_erradas (test_metricas.MetricasTests.test_todas_previsoes_erradas) ... ok
+
+----------------------------------------------------------------------
+Ran 11 tests in 0.001s
+
+OK

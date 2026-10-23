@@ -1,0 +1,8 @@
+Matriz: linhas reais e colunas previstas; ordem negativo, positivo
+[[45, 10], [5, 40]]
+Total: 100
+acuracia: 85.00%
+sensibilidade_recall: 88.89%
+especificidade: 81.82%
+precisao: 80.00%
+f1_score: 84.21%

@@ -1,0 +1,32 @@
+{
+  "tipo": "classificação binária",
+  "contagens": {
+    "vp": 40,
+    "vn": 45,
+    "fp": 10,
+    "fn": 5
+  },
+  "total": 100,
+  "matriz": [
+    [
+      45,
+      10
+    ],
+    [
+      5,
+      40
+    ]
+  ],
+  "ordem": {
+    "linhas": "real: negativo, positivo",
+    "colunas": "previsto: negativo, positivo"
+  },
+  "metricas": {
+    "acuracia": 0.85,
+    "sensibilidade_recall": 0.8888888888888888,
+    "especificidade": 0.8181818181818182,
+    "precisao": 0.8,
+    "f1_score": 0.8421052631578947
+  },
+  "divisao_por_zero": "None no Python; null no JSON; indefinida no relatório"
+}
