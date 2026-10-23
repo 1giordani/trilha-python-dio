@@ -1,0 +1,13 @@
+test_alinhamento_identidade_geometrica (test_faces.FacesTests.test_alinhamento_identidade_geometrica) ... ok
+test_caixa_invalida (test_faces.FacesTests.test_caixa_invalida) ... ok
+test_caixa_negativa_limitada (test_faces.FacesTests.test_caixa_negativa_limitada) ... ok
+test_identidade_e_limiar (test_faces.FacesTests.test_identidade_e_limiar) ... ok
+test_preprocessamento (test_faces.FacesTests.test_preprocessamento) ... ok
+test_probabilidades_invalidas (test_faces.FacesTests.test_probabilidades_invalidas) ... ok
+test_sem_faces_nao_chama_classificador (test_faces.FacesTests.test_sem_faces_nao_chama_classificador) ... ok
+test_tres_faces_processadas_em_lote (test_faces.FacesTests.test_tres_faces_processadas_em_lote) ... ok
+
+----------------------------------------------------------------------
+Ran 8 tests in 0.019s
+
+OK

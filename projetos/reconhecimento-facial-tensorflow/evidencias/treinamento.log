@@ -1,0 +1,99 @@
+2026-10-23 17:59:32.536815: I tensorflow/core/util/port.cc:153] oneDNN custom operations are on. You may see slightly different numerical results due to floating-point round-off errors from different computation orders. To turn them off, set the environment variable `TF_ENABLE_ONEDNN_OPTS=0`.
+2026-10-23 17:59:32.564097: I tensorflow/core/platform/cpu_feature_guard.cc:210] This TensorFlow binary is optimized to use available CPU instructions in performance-critical operations.
+To enable the following instructions: AVX2 AVX512F AVX512_VNNI AVX512_BF16 FMA, in other operations, rebuild TensorFlow with the appropriate compiler flags.
+2026-10-23 17:59:33.588456: I tensorflow/core/util/port.cc:153] oneDNN custom operations are on. You may see slightly different numerical results due to floating-point round-off errors from different computation orders. To turn them off, set the environment variable `TF_ENABLE_ONEDNN_OPTS=0`.
+train 48 faces
+valid 16 faces
+test 16 faces
+unknown_calibration 20 faces
+unknown_test 19 faces
+/tmp/tl-dio-venv/lib/python3.12/site-packages/keras/src/trainers/epoch_iterator.py:74: UserWarning: `shuffle=True` was passed, but will be ignored since the data `x` was provided as a tf.data.Dataset. The Dataset is expected to already be shuffled (via `.shuffle(buffer_size)`).
+  self.data_adapter = data_adapters.get_data_adapter(
+Epoch 1/40
+6/6 - 1s - 166ms/step - accuracy: 0.1042 - loss: 2.2323 - val_accuracy: 0.1250 - val_loss: 2.0783
+Epoch 2/40
+6/6 - 0s - 7ms/step - accuracy: 0.0833 - loss: 2.1109 - val_accuracy: 0.1250 - val_loss: 2.0453
+Epoch 3/40
+6/6 - 0s - 8ms/step - accuracy: 0.1875 - loss: 2.0361 - val_accuracy: 0.3125 - val_loss: 2.0213
+Epoch 4/40
+6/6 - 0s - 7ms/step - accuracy: 0.2917 - loss: 1.9947 - val_accuracy: 0.3750 - val_loss: 1.9839
+Epoch 5/40
+6/6 - 0s - 7ms/step - accuracy: 0.3542 - loss: 1.9698 - val_accuracy: 0.6250 - val_loss: 1.9301
+Epoch 6/40
+6/6 - 0s - 8ms/step - accuracy: 0.4792 - loss: 1.8690 - val_accuracy: 0.5000 - val_loss: 1.8473
+Epoch 7/40
+6/6 - 0s - 7ms/step - accuracy: 0.4167 - loss: 1.8270 - val_accuracy: 0.5625 - val_loss: 1.7567
+Epoch 8/40
+6/6 - 0s - 6ms/step - accuracy: 0.5417 - loss: 1.6313 - val_accuracy: 0.6250 - val_loss: 1.6394
+Epoch 9/40
+6/6 - 0s - 7ms/step - accuracy: 0.6458 - loss: 1.4992 - val_accuracy: 0.8125 - val_loss: 1.4646
+Epoch 10/40
+6/6 - 0s - 7ms/step - accuracy: 0.5833 - loss: 1.3818 - val_accuracy: 0.6875 - val_loss: 1.3793
+Epoch 11/40
+6/6 - 0s - 6ms/step - accuracy: 0.7083 - loss: 1.1120 - val_accuracy: 0.6250 - val_loss: 1.2881
+Epoch 12/40
+6/6 - 0s - 7ms/step - accuracy: 0.7083 - loss: 0.9993 - val_accuracy: 0.8750 - val_loss: 1.0815
+Epoch 13/40
+6/6 - 0s - 12ms/step - accuracy: 0.8542 - loss: 0.8736 - val_accuracy: 0.6875 - val_loss: 0.9881
+Epoch 14/40
+6/6 - 0s - 7ms/step - accuracy: 0.9167 - loss: 0.5680 - val_accuracy: 0.8125 - val_loss: 0.7517
+Epoch 15/40
+6/6 - 0s - 6ms/step - accuracy: 0.8750 - loss: 0.4982 - val_accuracy: 0.8125 - val_loss: 0.7276
+Epoch 16/40
+6/6 - 0s - 6ms/step - accuracy: 0.8333 - loss: 0.5570 - val_accuracy: 0.8125 - val_loss: 0.7855
+Epoch 17/40
+6/6 - 0s - 9ms/step - accuracy: 0.9375 - loss: 0.4410 - val_accuracy: 0.7500 - val_loss: 0.6640
+Epoch 18/40
+6/6 - 0s - 11ms/step - accuracy: 0.9792 - loss: 0.3386 - val_accuracy: 0.7500 - val_loss: 0.6210
+Epoch 19/40
+6/6 - 0s - 22ms/step - accuracy: 1.0000 - loss: 0.2640 - val_accuracy: 0.8125 - val_loss: 0.4951
+Epoch 20/40
+6/6 - 0s - 8ms/step - accuracy: 0.9167 - loss: 0.2258 - val_accuracy: 0.7500 - val_loss: 0.5845
+Epoch 21/40
+6/6 - 0s - 8ms/step - accuracy: 0.9583 - loss: 0.1417 - val_accuracy: 0.8125 - val_loss: 0.3875
+Epoch 22/40
+6/6 - 0s - 9ms/step - accuracy: 1.0000 - loss: 0.1178 - val_accuracy: 0.8750 - val_loss: 0.3926
+Epoch 23/40
+6/6 - 0s - 9ms/step - accuracy: 0.9792 - loss: 0.1295 - val_accuracy: 0.8125 - val_loss: 0.3644
+Epoch 24/40
+6/6 - 0s - 10ms/step - accuracy: 1.0000 - loss: 0.1431 - val_accuracy: 0.7500 - val_loss: 0.4657
+Epoch 25/40
+6/6 - 0s - 9ms/step - accuracy: 1.0000 - loss: 0.0457 - val_accuracy: 0.8125 - val_loss: 0.3303
+Epoch 26/40
+6/6 - 0s - 6ms/step - accuracy: 1.0000 - loss: 0.0776 - val_accuracy: 0.8125 - val_loss: 0.4389
+Epoch 27/40
+6/6 - 0s - 7ms/step - accuracy: 1.0000 - loss: 0.0789 - val_accuracy: 0.7500 - val_loss: 0.5584
+Epoch 28/40
+6/6 - 0s - 7ms/step - accuracy: 0.9583 - loss: 0.1247 - val_accuracy: 0.8125 - val_loss: 0.4482
+Epoch 29/40
+6/6 - 0s - 6ms/step - accuracy: 0.9583 - loss: 0.1435 - val_accuracy: 0.8750 - val_loss: 0.3664
+Epoch 30/40
+6/6 - 0s - 6ms/step - accuracy: 1.0000 - loss: 0.0502 - val_accuracy: 0.9375 - val_loss: 0.3045
+Epoch 31/40
+6/6 - 0s - 6ms/step - accuracy: 0.9792 - loss: 0.0694 - val_accuracy: 0.8750 - val_loss: 0.3155
+Epoch 32/40
+6/6 - 0s - 7ms/step - accuracy: 1.0000 - loss: 0.0517 - val_accuracy: 0.7500 - val_loss: 0.4368
+Epoch 33/40
+6/6 - 0s - 7ms/step - accuracy: 1.0000 - loss: 0.0417 - val_accuracy: 0.8125 - val_loss: 0.4763
+Epoch 34/40
+6/6 - 0s - 7ms/step - accuracy: 1.0000 - loss: 0.0688 - val_accuracy: 0.8125 - val_loss: 0.3747
+Epoch 35/40
+6/6 - 0s - 7ms/step - accuracy: 1.0000 - loss: 0.0324 - val_accuracy: 0.8125 - val_loss: 0.3744
+Epoch 36/40
+6/6 - 0s - 6ms/step - accuracy: 0.9583 - loss: 0.1186 - val_accuracy: 0.8750 - val_loss: 0.5503
+Epoch 37/40
+6/6 - 0s - 7ms/step - accuracy: 1.0000 - loss: 0.0501 - val_accuracy: 0.8750 - val_loss: 0.3535
+Epoch 38/40
+6/6 - 0s - 6ms/step - accuracy: 0.9792 - loss: 0.0967 - val_accuracy: 0.8125 - val_loss: 0.4749
+{
+  "used_counts": {
+    "train": 48,
+    "valid": 16,
+    "test": 16,
+    "unknown_calibration": 20,
+    "unknown_test": 19
+  },
+  "known_closed_set_accuracy": 0.875,
+  "unknown_rejection_rate": 0.9473684210526316
+}
+Faces simultâneas detectadas: 9

@@ -1,0 +1,5 @@
+tensorflow==2.19.1
+mtcnn==1.0.0
+numpy>=1.26,<2.2
+scikit-learn>=1.5,<2
+Pillow>=10.1,<13

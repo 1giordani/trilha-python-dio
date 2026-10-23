@@ -1,0 +1,14 @@
+{
+  "status": "ok",
+  "notebook_cells": 17,
+  "notebook_executed": false,
+  "multiple_faces_detected": 9,
+  "correct_known_labels_in_demo": 7,
+  "checks": [
+    "sintaxe",
+    "grupos sem imagens repetidas",
+    "contagens das evidências",
+    "mais de uma face reconhecida",
+    "links locais"
+  ]
+}

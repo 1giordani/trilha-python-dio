@@ -1,0 +1,157 @@
+{
+  "type": "montagem ilustrativa, não foto de grupo natural",
+  "source_split": "validação e calibração; não teste independente",
+  "selection": "primeira foto de validação de cada uma das 8 classes, mais primeiro desconhecido da calibração",
+  "source_indices": [
+    4,
+    17,
+    23,
+    38,
+    48,
+    59,
+    66,
+    79,
+    80
+  ],
+  "expected_subject_ids": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8
+  ],
+  "expected_faces": 9,
+  "detected_faces": 9,
+  "detections": [
+    {
+      "box_xyxy": [
+        742,
+        0,
+        1024,
+        311
+      ],
+      "label": "pessoa_02",
+      "classifier_score": 0.9227756261825562,
+      "detection_confidence": 0.9999639987945557,
+      "tile": 2,
+      "expected_label": "pessoa_02",
+      "matches_expected": true
+    },
+    {
+      "box_xyxy": [
+        26,
+        322,
+        330,
+        690
+      ],
+      "label": "pessoa_03",
+      "classifier_score": 0.972064197063446,
+      "detection_confidence": 0.9999390840530396,
+      "tile": 3,
+      "expected_label": "pessoa_03",
+      "matches_expected": true
+    },
+    {
+      "box_xyxy": [
+        731,
+        709,
+        1010,
+        1031
+      ],
+      "label": "pessoa_04",
+      "classifier_score": 0.902654767036438,
+      "detection_confidence": 0.9999114274978638,
+      "tile": 8,
+      "expected_label": "nao_cadastrado",
+      "matches_expected": false
+    },
+    {
+      "box_xyxy": [
+        27,
+        0,
+        287,
+        326
+      ],
+      "label": "nao_cadastrado",
+      "classifier_score": 0.48116371035575867,
+      "detection_confidence": 0.9989315867424011,
+      "tile": 0,
+      "expected_label": "pessoa_00",
+      "matches_expected": false
+    },
+    {
+      "box_xyxy": [
+        405,
+        371,
+        659,
+        664
+      ],
+      "label": "pessoa_04",
+      "classifier_score": 0.9481102228164673,
+      "detection_confidence": 0.9987146854400635,
+      "tile": 4,
+      "expected_label": "pessoa_04",
+      "matches_expected": true
+    },
+    {
+      "box_xyxy": [
+        745,
+        359,
+        1014,
+        661
+      ],
+      "label": "pessoa_05",
+      "classifier_score": 0.9287688732147217,
+      "detection_confidence": 0.9981039762496948,
+      "tile": 5,
+      "expected_label": "pessoa_05",
+      "matches_expected": true
+    },
+    {
+      "box_xyxy": [
+        387,
+        708,
+        643,
+        1025
+      ],
+      "label": "pessoa_07",
+      "classifier_score": 0.9867430925369263,
+      "detection_confidence": 0.9975557327270508,
+      "tile": 7,
+      "expected_label": "pessoa_07",
+      "matches_expected": true
+    },
+    {
+      "box_xyxy": [
+        31,
+        706,
+        309,
+        1034
+      ],
+      "label": "pessoa_06",
+      "classifier_score": 0.9940151572227478,
+      "detection_confidence": 0.9721746444702148,
+      "tile": 6,
+      "expected_label": "pessoa_06",
+      "matches_expected": true
+    },
+    {
+      "box_xyxy": [
+        396,
+        6,
+        660,
+        336
+      ],
+      "label": "pessoa_01",
+      "classifier_score": 0.9921537041664124,
+      "detection_confidence": 0.9706748723983765,
+      "tile": 1,
+      "expected_label": "pessoa_01",
+      "matches_expected": true
+    }
+  ]
+}

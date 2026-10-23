@@ -1,0 +1,9 @@
+__pycache__/
+.ipynb_checkpoints/
+.venv/
+cache/
+artefatos/
+artefatos-personalizados/
+dados-pessoais/
+resultados/
+*.keras

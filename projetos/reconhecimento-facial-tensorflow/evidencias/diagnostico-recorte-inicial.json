@@ -1,0 +1,37 @@
+{
+  "type": "montagem, não foto de grupo natural",
+  "source_indices": [
+    1,
+    10,
+    100
+  ],
+  "expected_subject_ids": [
+    0,
+    1,
+    10
+  ],
+  "detections": [
+    {
+      "box_xyxy": [
+        578,
+        0,
+        859,
+        320
+      ],
+      "label": "pessoa_07",
+      "classifier_score": 0.9952817559242249,
+      "detection_confidence": 0.9997236132621765
+    },
+    {
+      "box_xyxy": [
+        297,
+        0,
+        570,
+        320
+      ],
+      "label": "nao_cadastrado",
+      "classifier_score": 0.851905107498169,
+      "detection_confidence": 0.9636425971984863
+    }
+  ]
+}

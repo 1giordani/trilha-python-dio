@@ -2,6 +2,12 @@
 
 Repositório de estudos baseado no [material original da Digital Innovation One](https://github.com/digitalinnovationone/trilha-python-dio), com o histórico e os créditos preservados pelo fork.
 
+## Projeto de visão: reconhecimento facial com TensorFlow
+
+[**MTCNN + CNN: detecção e classificação de múltiplas faces**](projetos/reconhecimento-facial-tensorflow/README.md)
+
+Piloto com oito identidades da base Olivetti, detector pré-treinado, alinhamento pelos olhos, classificação em lote e avaliação da rejeição de faces não cadastradas. Inclui notebook Colab, cadastro próprio e evidências com acertos e falhas documentados.
+
 ## Projeto de detecção: YOLO e duas classes adicionais
 
 [**YOLOv3-tiny: base rotulada, transferência COCO80 → 82 e treinamento piloto**](projetos/yolo-duas-classes/README.md)
