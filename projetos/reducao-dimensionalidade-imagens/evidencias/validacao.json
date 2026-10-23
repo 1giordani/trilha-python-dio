@@ -1,0 +1,14 @@
+{
+  "status": "ok",
+  "cells": 15,
+  "python_cells_executed": 7,
+  "scope": "Python local; sem sessão Colab; %pip omitido porque Pillow já instalado",
+  "checks": [
+    "sintaxe",
+    "execução padrão do notebook",
+    "sincronização com processar.py",
+    "somente 0 e 255",
+    "dimensões preservadas",
+    "links do README"
+  ]
+}

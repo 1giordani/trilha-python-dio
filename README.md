@@ -2,6 +2,12 @@
 
 Repositório de estudos baseado no [material original da Digital Innovation One](https://github.com/digitalinnovationone/trilha-python-dio), com o histórico e os créditos preservados pelo fork.
 
+## Projeto de imagens: cinza e binarização
+
+[**Redução de dimensionalidade em imagens — código, notebook e resultados**](projetos/reducao-dimensionalidade-imagens/README.md)
+
+Conversão explícita por pixel de RGB para cinza (0–255) e binária (0 ou 255), com limiar configurável, comparação visual, oito testes e evidências de execução local.
+
 ## Projeto de Deep Learning: Transfer Learning
 
 [**Gatos e cachorros com MobileNetV2 — notebook, documentação e evidências**](projetos/transfer-learning-gatos-cachorros/README.md)

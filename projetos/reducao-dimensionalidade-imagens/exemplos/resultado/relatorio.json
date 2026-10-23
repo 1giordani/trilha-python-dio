@@ -1,0 +1,25 @@
+{
+  "entrada": "entrada.png",
+  "largura": 384,
+  "altura": 256,
+  "pixels": 98304,
+  "limiar": 128,
+  "formula": "(299*R + 587*G + 114*B + 500) // 1000",
+  "regra": "cinza >= limiar: 255; caso contrário: 0",
+  "modos": {
+    "original": "RGB",
+    "cinza": "L",
+    "binaria": "L"
+  },
+  "intervalo_cinza": [
+    0,
+    255
+  ],
+  "valores_binaria": [
+    0,
+    255
+  ],
+  "pixels_pretos": 61440,
+  "pixels_brancos": 36864,
+  "dimensoes_preservadas": true
+}

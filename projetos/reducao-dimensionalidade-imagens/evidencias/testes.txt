@@ -1,0 +1,13 @@
+test_bloqueia_sobrescrever_entrada (test_processar.ConversaoTests.test_bloqueia_sobrescrever_entrada) ... ok
+test_borda_do_limiar (test_processar.ConversaoTests.test_borda_do_limiar) ... ok
+test_cores_conhecidas (test_processar.ConversaoTests.test_cores_conhecidas) ... ok
+test_limiares_extremos (test_processar.ConversaoTests.test_limiares_extremos) ... ok
+test_preserva_entrada_e_dimensoes (test_processar.ConversaoTests.test_preserva_entrada_e_dimensoes) ... ok
+test_rejeita_limiar_invalido (test_processar.ConversaoTests.test_rejeita_limiar_invalido) ... ok
+test_todos_os_niveis (test_processar.ConversaoTests.test_todos_os_niveis) ... ok
+test_transparencia_sobre_branco (test_processar.ConversaoTests.test_transparencia_sobre_branco) ... ok
+
+----------------------------------------------------------------------
+Ran 8 tests in 0.014s
+
+OK
