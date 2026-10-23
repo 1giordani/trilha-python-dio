@@ -1,0 +1,32 @@
+[
+  {
+    "entrada": "Abrir YouTube",
+    "exit_code": 0,
+    "stdout": "Entrada: Abrir YouTube\n{\"intencao\": \"youtube\", \"resposta\": \"Vou abrir o YouTube.\", \"url\": \"https://www.youtube.com/\", \"encerrar\": false, \"execucao\": \"simulado\"}\n"
+  },
+  {
+    "entrada": "Pesquisar no YouTube sobre música & Python",
+    "exit_code": 0,
+    "stdout": "Entrada: Pesquisar no YouTube sobre música & Python\n{\"intencao\": \"youtube\", \"resposta\": \"Vou abrir o YouTube com a busca por música & Python.\", \"url\": \"https://www.youtube.com/results?search_query=m%C3%BAsica+%26+Python\", \"encerrar\": false, \"execucao\": \"simulado\"}\n"
+  },
+  {
+    "entrada": "Pesquisar na Wikipédia sobre inteligência artificial",
+    "exit_code": 0,
+    "stdout": "Entrada: Pesquisar na Wikipédia sobre inteligência artificial\n{\"intencao\": \"wikipedia\", \"resposta\": \"Vou pesquisar inteligência artificial na Wikipédia.\", \"url\": \"https://pt.wikipedia.org/w/index.php?search=intelig%C3%AAncia+artificial\", \"encerrar\": false, \"execucao\": \"simulado\"}\n"
+  },
+  {
+    "entrada": "Encontrar farmácias em Recife",
+    "exit_code": 0,
+    "stdout": "Entrada: Encontrar farmácias em Recife\n{\"intencao\": \"farmacia\", \"resposta\": \"Vou abrir a busca de farmácias no mapa. O navegador pode pedir sua localização. Confira distância e horário.\", \"url\": \"https://www.google.com/maps/search/?api=1&query=farm%C3%A1cias+perto+de+Recife\", \"encerrar\": false, \"execucao\": \"simulado\"}\n"
+  },
+  {
+    "entrada": "Que horas são?",
+    "exit_code": 0,
+    "stdout": "Entrada: Que horas são?\n{\"intencao\": \"hora\", \"resposta\": \"Agora são 18:29.\", \"url\": \"\", \"encerrar\": false, \"execucao\": \"sem_link\"}\n"
+  },
+  {
+    "entrada": "Sair",
+    "exit_code": 0,
+    "stdout": "Entrada: Sair\n{\"intencao\": \"sair\", \"resposta\": \"Até a próxima!\", \"url\": \"\", \"encerrar\": true, \"execucao\": \"sem_link\"}\n"
+  }
+]

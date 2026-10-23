@@ -1,0 +1,18 @@
+{
+  "python": "3.12.14",
+  "bibliotecas": {
+    "SpeechRecognition": "3.17.0",
+    "gTTS": "2.5.4",
+    "pygame": "2.6.1"
+  },
+  "microfone": "não testado: hardware indisponível",
+  "speech_to_text": "não validado com fala humana",
+  "reproducao": "não testada: sem saída física",
+  "navegador": "simulação: URLs geradas, nenhuma página aberta",
+  "tts": {
+    "status": "falhou",
+    "erro": "gTTSError",
+    "mensagem": "Failed to connect. Probable cause: Host 'https://translate.google.com.br/' is not reachable",
+    "observacao": "Tentativa real de rede; nenhum MP3 válido foi produzido."
+  }
+}

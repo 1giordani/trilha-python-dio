@@ -1,0 +1,20 @@
+test_comando_nao_ouve (test_assistente.TestAssistente.test_comando_nao_ouve) ... ok
+test_desconhecido_nao_executa_shell (test_assistente.TestAssistente.test_desconhecido_nao_executa_shell) ... ok
+test_dry_run_nao_abre (test_assistente.TestAssistente.test_dry_run_nao_abre) ... ok
+test_erro_de_audio_preserva_resposta_em_texto (test_assistente.TestAssistente.test_erro_de_audio_preserva_resposta_em_texto) ... ok
+test_falhas_de_microfone_encerram (test_assistente.TestAssistente.test_falhas_de_microfone_encerram) ... ok
+test_farmacia_com_local (test_assistente.TestAssistente.test_farmacia_com_local) ... ok
+test_farmacia_local_falado (test_assistente.TestAssistente.test_farmacia_local_falado) ... ok
+test_farmacia_sem_local (test_assistente.TestAssistente.test_farmacia_sem_local) ... ok
+test_navegador_falha (test_assistente.TestAssistente.test_navegador_falha) ... ok
+test_sair (test_assistente.TestAssistente.test_sair) ... ok
+test_texto_encerra_antes_do_limite (test_assistente.TestAssistente.test_texto_encerra_antes_do_limite) ... ok
+test_wikipedia_busca (test_assistente.TestAssistente.test_wikipedia_busca) ... ok
+test_wikipedia_pede_assunto (test_assistente.TestAssistente.test_wikipedia_pede_assunto) ... ok
+test_youtube_abre_home (test_assistente.TestAssistente.test_youtube_abre_home) ... ok
+test_youtube_codifica_busca (test_assistente.TestAssistente.test_youtube_codifica_busca) ... ok
+
+----------------------------------------------------------------------
+Ran 15 tests in 0.004s
+
+OK

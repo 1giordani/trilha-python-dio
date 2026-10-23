@@ -2,6 +2,12 @@
 
 Repositório de estudos baseado no [material original da Digital Innovation One](https://github.com/digitalinnovationone/trilha-python-dio), com o histórico e os créditos preservados pelo fork.
 
+## Projeto de assistência virtual: comandos em português
+
+[**Assistente com SpeechRecognition, gTTS e comandos por voz**](projetos/assistente-virtual-python/README.md)
+
+Wikipédia, YouTube e busca de farmácias no mapa; modo texto, notebook Colab e 15 testes. Integrações de voz e limitações de conexão documentadas no projeto.
+
 ## Projeto de recomendação: produtos por aparência
 
 [**Recomendador visual — CNN multiclasse, cores e busca por similaridade**](projetos/recomendacao-visual-produtos/README.md)
@@ -106,3 +112,4 @@ Os demais módulos do material original continuam disponíveis para estudo. Eles
 - Documentação, correção e testes preparados com auxílio de IA.
 
 O repositório original contém vários desafios. O texto genérico de entrega fornecido não identifica a atividade específica da plataforma; este README documenta o sistema bancário encontrado nos módulos iniciais.
+
