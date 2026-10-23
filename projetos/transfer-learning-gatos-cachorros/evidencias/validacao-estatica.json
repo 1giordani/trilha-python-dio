@@ -1,0 +1,11 @@
+{
+  "status": "ok",
+  "cells": 25,
+  "checks": [
+    "schema nbformat",
+    "sintaxe de todas as células",
+    "notebook sincronizado ao pipeline",
+    "links locais do README",
+    "saídas de treinamento não fabricadas"
+  ]
+}

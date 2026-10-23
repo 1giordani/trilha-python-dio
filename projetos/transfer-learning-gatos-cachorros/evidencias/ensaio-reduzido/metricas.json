@@ -1,0 +1,107 @@
+{
+  "status": "treinamento_e_avaliacao_executados",
+  "utc": "2026-10-23T19:54:19.125342+00:00",
+  "config": {
+    "seed": 42,
+    "image_size": 96,
+    "batch_size": 32,
+    "head_epochs": 1,
+    "fine_epochs": 1,
+    "fine_layers": 30,
+    "head_lr": 0.001,
+    "fine_lr": 1e-05,
+    "train_limit": 256,
+    "evaluation_limit": 64,
+    "output_dir": "/tmp/tl-dio-resultados"
+  },
+  "data": {
+    "dataset": "cats_vs_dogs/4.0.1",
+    "classes": [
+      "cat",
+      "dog"
+    ],
+    "splits": [
+      "train[:80%]",
+      "train[80%:90%]",
+      "train[90%:]"
+    ],
+    "original_counts": {
+      "treino": 18610,
+      "validacao": 2326,
+      "teste": 2326
+    },
+    "used_counts": {
+      "treino": 256,
+      "validacao": 64,
+      "teste": 64
+    },
+    "split_stratified": false
+  },
+  "environment": {
+    "python": "3.12.14",
+    "tensorflow": "2.19.1",
+    "tensorflow_datasets": "4.9.9",
+    "gpus": []
+  },
+  "validation_comparison": {
+    "extracao": {
+      "accuracy": 0.609375,
+      "auc": 0.708984375,
+      "loss": 0.646121621131897
+    },
+    "fine_tuning": {
+      "accuracy": 0.8125,
+      "auc": 0.8662109375,
+      "loss": 0.47640547156333923
+    },
+    "selecionado": "fine_tuning",
+    "criterio": "menor loss na validação; teste não usado na seleção"
+  },
+  "test_metrics": {
+    "accuracy": 0.890625,
+    "auc": 0.908203125,
+    "loss": 0.3348320722579956
+  },
+  "test_class_distribution": [
+    48,
+    16
+  ],
+  "classification_report": {
+    "cat": {
+      "precision": 0.9361702127659575,
+      "recall": 0.9166666666666666,
+      "f1-score": 0.9263157894736842,
+      "support": 48.0
+    },
+    "dog": {
+      "precision": 0.7647058823529411,
+      "recall": 0.8125,
+      "f1-score": 0.7878787878787878,
+      "support": 16.0
+    },
+    "accuracy": 0.890625,
+    "macro avg": {
+      "precision": 0.8504380475594493,
+      "recall": 0.8645833333333333,
+      "f1-score": 0.857097288676236,
+      "support": 64.0
+    },
+    "weighted avg": {
+      "precision": 0.8933041301627034,
+      "recall": 0.890625,
+      "f1-score": 0.8917065390749601,
+      "support": 64.0
+    }
+  },
+  "confusion_matrix": [
+    [
+      44,
+      4
+    ],
+    [
+      3,
+      13
+    ]
+  ],
+  "decision_threshold": 0.5
+}

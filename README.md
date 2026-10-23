@@ -2,6 +2,12 @@
 
 Repositório de estudos baseado no [material original da Digital Innovation One](https://github.com/digitalinnovationone/trilha-python-dio), com o histórico e os créditos preservados pelo fork.
 
+## Projeto de Deep Learning: Transfer Learning
+
+[**Gatos e cachorros com MobileNetV2 — notebook, documentação e evidências**](projetos/transfer-learning-gatos-cachorros/README.md)
+
+Aplicação de Transfer Learning com extração de características e fine-tuning, usando TensorFlow/Keras. O projeto está em uma pasta independente, com execução pelo Colab e registro do escopo das validações. Os módulos da trilha e o sistema bancário continuam disponíveis.
+
 ## Projeto documentado: sistema bancário em Python
 
 O projeto de console permite depósitos, saques e consulta de extrato. A versão com funções também permite cadastrar usuários, criar contas e listar contas.

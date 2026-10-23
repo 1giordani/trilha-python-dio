@@ -1,0 +1,9 @@
+tensorflow==2.19.1
+tensorflow-datasets==4.9.9
+tensorflow-metadata==1.16.1
+importlib-resources==7.1.0
+numpy>=1.26,<2.2
+matplotlib>=3.8,<4
+scikit-learn>=1.5,<2
+h5py>=3.11,<4
+nbformat>=5.10,<6
