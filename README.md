@@ -2,6 +2,12 @@
 
 Repositório de estudos baseado no [material original da Digital Innovation One](https://github.com/digitalinnovationone/trilha-python-dio), com o histórico e os créditos preservados pelo fork.
 
+## Projeto de recomendação: produtos por aparência
+
+[**Recomendador visual — CNN multiclasse, cores e busca por similaridade**](projetos/recomendacao-visual-produtos/README.md)
+
+Rede treinada em dez categorias, índice de 1.000 itens, consultas por imagem e interface local Streamlit. Ranking sem preço ou texto, com cores artificiais no piloto e avaliação documentada em 500 consultas separadas.
+
 ## Projeto de visão: reconhecimento facial com TensorFlow
 
 [**MTCNN + CNN: detecção e classificação de múltiplas faces**](projetos/reconhecimento-facial-tensorflow/README.md)

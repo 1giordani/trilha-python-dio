@@ -1,0 +1,27 @@
+[
+  {
+    "item_id": "official_test_07883",
+    "catalog_index": 87,
+    "cosine_similarity": 0.9876354932785034
+  },
+  {
+    "item_id": "official_test_01270",
+    "catalog_index": 78,
+    "cosine_similarity": 0.969822108745575
+  },
+  {
+    "item_id": "official_test_02578",
+    "catalog_index": 676,
+    "cosine_similarity": 0.9674633741378784
+  },
+  {
+    "item_id": "official_test_00916",
+    "catalog_index": 44,
+    "cosine_similarity": 0.9413808584213257
+  },
+  {
+    "item_id": "official_test_07334",
+    "catalog_index": 693,
+    "cosine_similarity": 0.926598846912384
+  }
+]

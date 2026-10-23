@@ -1,0 +1,15 @@
+test_colorizacao_nao_muda_preto (test_visual.VisualTests.test_colorizacao_nao_muda_preto) ... ok
+test_empate_deterministico (test_visual.VisualTests.test_empate_deterministico) ... ok
+test_exclusao_da_propria_consulta (test_visual.VisualTests.test_exclusao_da_propria_consulta) ... ok
+test_histograma_distingue_cor (test_visual.VisualTests.test_histograma_distingue_cor) ... ok
+test_k_invalido (test_visual.VisualTests.test_k_invalido) ... ok
+test_normalizacao (test_visual.VisualTests.test_normalizacao) ... ok
+test_ordem_cosseno (test_visual.VisualTests.test_ordem_cosseno) ... ok
+test_preprocessamento_tamanho (test_visual.VisualTests.test_preprocessamento_tamanho) ... ok
+test_rejeita_vetor_zero (test_visual.VisualTests.test_rejeita_vetor_zero) ... ok
+test_sem_conteudo (test_visual.VisualTests.test_sem_conteudo) ... ok
+
+----------------------------------------------------------------------
+Ran 10 tests in 0.022s
+
+OK

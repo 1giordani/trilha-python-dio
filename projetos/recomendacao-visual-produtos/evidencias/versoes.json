@@ -1,0 +1,12 @@
+{
+  "versions": {
+    "tensorflow-cpu": "2.19.1",
+    "keras": "3.15.1",
+    "numpy": "2.1.3",
+    "pillow": "12.3.0",
+    "streamlit": "1.66.1"
+  },
+  "encoder_sha256": "79357671a2c5adf2626ea039ba3d7c83d44200bed569d44e662821f90b76ed31",
+  "colab_executed": false,
+  "public_website_deployed": false
+}

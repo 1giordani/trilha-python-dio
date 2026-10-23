@@ -1,0 +1,53 @@
+{
+  "scope": "Fashion-MNIST colorizado artificialmente; consulta e catálogo separados",
+  "environment": {
+    "python": "3.12.14",
+    "tensorflow": "2.19.1"
+  },
+  "counts": {
+    "train": 8000,
+    "valid": 1000,
+    "catalog": 1000,
+    "queries": 500
+  },
+  "classes": [
+    "camiseta",
+    "calca",
+    "pulover",
+    "vestido",
+    "casaco",
+    "sandalia",
+    "camisa",
+    "tenis",
+    "bolsa",
+    "bota"
+  ],
+  "class_count": 10,
+  "embedding_dimensions": 64,
+  "color_histogram_dimensions": 24,
+  "descriptor_dimensions": 88,
+  "color_weight": 0.25,
+  "epochs_executed": 5,
+  "selected_epoch": 5,
+  "classifier_accuracy_on_queries": 0.804,
+  "precision_at_5_class_proxy": 0.6492,
+  "hit_rate_at_5_class_proxy": 0.926,
+  "random_precision_at_5_class_proxy": 0.1024,
+  "precision_at_5_by_class": {
+    "camiseta": 0.528,
+    "calca": 0.92,
+    "pulover": 0.448,
+    "vestido": 0.576,
+    "casaco": 0.472,
+    "sandalia": 0.84,
+    "camisa": 0.284,
+    "tenis": 0.728,
+    "bolsa": 0.832,
+    "bota": 0.864
+  },
+  "identical_raw_images_across_groups": false,
+  "ranking_uses_labels": false,
+  "ranking_uses_text_or_price": false,
+  "metric_limitation": "relevância medida por categoria; não é avaliação humana de semelhança visual",
+  "same_color_at_5_synthetic_proxy": 0.94
+}

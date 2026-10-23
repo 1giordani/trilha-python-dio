@@ -1,0 +1,9 @@
+{
+  "status": "ok",
+  "checks": [
+    "abertura da interface com modelo real",
+    "troca da consulta do catálogo",
+    "ausência de exceções no AppTest"
+  ],
+  "deployment": "não publicado como site; execução local"
+}

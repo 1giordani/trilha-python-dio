@@ -1,0 +1,16 @@
+{
+  "status": "ok",
+  "notebook_cells": 15,
+  "notebook_executed": false,
+  "unique_original_images": 10500,
+  "queries": 500,
+  "catalog_items": 1000,
+  "checks": [
+    "sintaxe",
+    "hashes sem repetição exata entre grupos",
+    "separação de IDs",
+    "cinco vizinhos distintos por consulta",
+    "ordenação dos escores",
+    "links locais"
+  ]
+}
