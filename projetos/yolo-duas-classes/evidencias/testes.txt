@@ -1,0 +1,13 @@
+test_ap_falso_positivo_antes_de_acerto (test_project.ProjectTests.test_ap_falso_positivo_antes_de_acerto) ... ok
+test_ap_perfeito_e_sem_deteccao (test_project.ProjectTests.test_ap_perfeito_e_sem_deteccao) ... ok
+test_caixas_invalidas (test_project.ProjectTests.test_caixas_invalidas) ... ok
+test_cfg_classes_filtros (test_project.ProjectTests.test_cfg_classes_filtros) ... ok
+test_iou (test_project.ProjectTests.test_iou) ... ok
+test_labelme_desktop_json (test_project.ProjectTests.test_labelme_desktop_json) ... ok
+test_labelme_xml_e_separacao_dataset (test_project.ProjectTests.test_labelme_xml_e_separacao_dataset) ... ok
+test_normalizacao (test_project.ProjectTests.test_normalizacao) ... ok
+
+----------------------------------------------------------------------
+Ran 8 tests in 0.202s
+
+OK

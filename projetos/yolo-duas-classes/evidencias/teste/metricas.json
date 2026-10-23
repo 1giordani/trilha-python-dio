@@ -1,0 +1,15 @@
+{
+  "split": "test",
+  "images": 20,
+  "weights": "yolov3-tiny-82_final.weights",
+  "AP50_new_classes": {
+    "80": 1.0,
+    "81": 1.0
+  },
+  "mean_AP50_new_classes": 1.0,
+  "iou_threshold": 0.5,
+  "min_score": 0.01,
+  "nms": 0.45,
+  "preview_threshold": 0.25,
+  "scope": "duas classes sintéticas; sem avaliação das 80 classes COCO"
+}

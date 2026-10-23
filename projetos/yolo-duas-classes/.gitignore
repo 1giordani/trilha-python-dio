@@ -1,0 +1,10 @@
+__pycache__/
+.ipynb_checkpoints/
+.venv/
+darknet/
+weights/
+backup/
+dataset/
+*.weights
+*.backup
+evidencias/avaliacao/predicoes.json

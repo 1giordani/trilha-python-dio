@@ -1,0 +1,41 @@
+{
+  "split": "test",
+  "images": 20,
+  "weights": "yolov3-tiny-82_final.weights",
+  "AP50_new_classes": {
+    "80": 1.0,
+    "81": 1.0
+  },
+  "mean_AP50_new_classes": 1.0,
+  "iou_threshold": 0.5,
+  "min_score": 0.01,
+  "nms": 0.45,
+  "preview_threshold": 0.25,
+  "scope": "duas classes sint\u00e9ticas; sem avalia\u00e7\u00e3o das 80 classes COCO"
+}
+layer     filters    size              input                output
+    0 conv     16  3 x 3 / 1   128 x 128 x   3   ->   128 x 128 x  16  0.014 BFLOPs
+    1 max          2 x 2 / 2   128 x 128 x  16   ->    64 x  64 x  16
+    2 conv     32  3 x 3 / 1    64 x  64 x  16   ->    64 x  64 x  32  0.038 BFLOPs
+    3 max          2 x 2 / 2    64 x  64 x  32   ->    32 x  32 x  32
+    4 conv     64  3 x 3 / 1    32 x  32 x  32   ->    32 x  32 x  64  0.038 BFLOPs
+    5 max          2 x 2 / 2    32 x  32 x  64   ->    16 x  16 x  64
+    6 conv    128  3 x 3 / 1    16 x  16 x  64   ->    16 x  16 x 128  0.038 BFLOPs
+    7 max          2 x 2 / 2    16 x  16 x 128   ->     8 x   8 x 128
+    8 conv    256  3 x 3 / 1     8 x   8 x 128   ->     8 x   8 x 256  0.038 BFLOPs
+    9 max          2 x 2 / 2     8 x   8 x 256   ->     4 x   4 x 256
+   10 conv    512  3 x 3 / 1     4 x   4 x 256   ->     4 x   4 x 512  0.038 BFLOPs
+   11 max          2 x 2 / 1     4 x   4 x 512   ->     4 x   4 x 512
+   12 conv   1024  3 x 3 / 1     4 x   4 x 512   ->     4 x   4 x1024  0.151 BFLOPs
+   13 conv    256  1 x 1 / 1     4 x   4 x1024   ->     4 x   4 x 256  0.008 BFLOPs
+   14 conv    512  3 x 3 / 1     4 x   4 x 256   ->     4 x   4 x 512  0.038 BFLOPs
+   15 conv    261  1 x 1 / 1     4 x   4 x 512   ->     4 x   4 x 261  0.004 BFLOPs
+   16 yolo
+   17 route  13
+   18 conv    128  1 x 1 / 1     4 x   4 x 256   ->     4 x   4 x 128  0.001 BFLOPs
+   19 upsample            2x     4 x   4 x 128   ->     8 x   8 x 128
+   20 route  19 8
+   21 conv    256  3 x 3 / 1     8 x   8 x 384   ->     8 x   8 x 256  0.113 BFLOPs
+   22 conv    261  1 x 1 / 1     8 x   8 x 256   ->     8 x   8 x 261  0.009 BFLOPs
+   23 yolo
+Loading weights from backup/yolov3-tiny-82_final.weights...Done!

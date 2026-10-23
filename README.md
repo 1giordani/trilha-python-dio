@@ -2,6 +2,12 @@
 
 Repositório de estudos baseado no [material original da Digital Innovation One](https://github.com/digitalinnovationone/trilha-python-dio), com o histórico e os créditos preservados pelo fork.
 
+## Projeto de detecção: YOLO e duas classes adicionais
+
+[**YOLOv3-tiny: base rotulada, transferência COCO80 → 82 e treinamento piloto**](projetos/yolo-duas-classes/README.md)
+
+Base sintética própria, conversor LabelMe XML/JSON, transplante de pesos, treino real em CPU e avaliação em imagens reservadas. Inclui notebook Colab e evidências com limites do experimento documentados.
+
 ## Projeto de avaliação: métricas de classificação
 
 [**Acurácia, recall, especificidade, precisão e F1 — fórmulas, notebook e resultados**](projetos/metricas-avaliacao-classificacao/README.md)

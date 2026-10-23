@@ -1,0 +1,16 @@
+{
+  "status": "ok",
+  "classes": 82,
+  "yolo_heads": 2,
+  "dataset_images": 120,
+  "notebook_cells": 15,
+  "notebook_executed": false,
+  "checks": [
+    "sintaxe e esquema básico",
+    "configuração 82/261",
+    "IDs 80 e 81",
+    "ZIP íntegro",
+    "separação 80/20/20",
+    "links locais"
+  ]
+}

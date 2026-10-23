@@ -1,0 +1,21 @@
+{
+  "darknet_commit": "f6afaabcdf85f77e7aff2ec55c020c0e297c77f9",
+  "iterations": 150,
+  "network_size": 128,
+  "batch": 4,
+  "micro_batch": 1,
+  "cpu": true,
+  "train_images": 80,
+  "validation_images": 20,
+  "test_images": 20,
+  "final_weights_sha256": "851e6867c85bd28d769c3743795eeefd2be5c2b02cf2b135a392a2ef2e67f71e",
+  "finite_weights": true,
+  "convolutions": 13,
+  "source_weights_url": "https://raw.githubusercontent.com/mbaske/yolo-unity/master/YoloPretrained/YOLOv3-tiny/yolov3-tiny.weights",
+  "source_weights_sha256": "dccea06f59b781ec1234ddf8d1e94b9519a97f4245748a7d4db75d5b7080a42c",
+  "source_download_note": "URL oficial retornou HTTP 403 neste ambiente; mirror documentado utilizado",
+  "validation_selection": "orçamento fixo de 150 iterações; sem seleção pelo teste",
+  "manual_labelme_session": false,
+  "colab_session": false,
+  "old_coco_classes_evaluated": false
+}

@@ -1,0 +1,5 @@
+classes=82
+train=dataset/train.txt
+valid=dataset/valid.txt
+names=config/classes.names
+backup=backup
